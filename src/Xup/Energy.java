@@ -20,5 +20,9 @@ public class Energy extends Physics {
     {
         return Force * Displacement;
     }
+    public flost Height(float time)
+    {
+        return 0.5 * gravity * time * time;
+    }
   
 }
